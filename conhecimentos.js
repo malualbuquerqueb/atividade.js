@@ -6,7 +6,7 @@ const skills = [
     titulo: 'MS DOS', 
     descricao: 'O sistema operacional "MS-DOS" foi criado originalmente pela "Seattle Computer Projects"em meados de 1980 com o nome de QDOS, tendo seu sistema operacional comprado pela Microsoft no ano seguinte em 1981 onde teve sua nomenclatura alterada para a vigente.', 
     dom: 'Lançamento: Meados de 1981', 
-    segundaImg: "https://media.licdn.com/dms/image/D4D12AQHg4enzmwJatw/article-cover_image-shrink_600_2000/0/1709128178303?e=2147483647&v=beta&t=jBiSHkDD6g5T70DSNBTZKmCkMMvHLgiZY9nV-hkbEI4"
+    segundaImg: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Microsoft_Windows_95_Version_4.00.1111_command.com_MS-DOS_Prompt_492x259.png/250px-Microsoft_Windows_95_Version_4.00.1111_command.com_MS-DOS_Prompt_492x259.png"
     
   },
   {
