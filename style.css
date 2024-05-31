@@ -1,0 +1,490 @@
+body {
+  margin-left: 20px;
+  font-family: "Poppins", sans-serif;
+  background-color: #F8F0E5;
+
+}
+header {
+  z-index: 999;
+ 
+}
+
+
+.titulo1 {
+  padding-top: 60px;
+  text-align: center;
+
+
+}
+
+.titulo {
+  padding-top: 50px;
+  
+  
+
+}
+
+.titulo2 {
+  padding-top: 50px;
+  margin-left: 20px;
+
+  
+}
+
+
+.subtexto {
+  text-align: center;
+
+
+}
+
+.foto,
+.foto1 {
+  display: inline-flex;
+  width: 25%;
+  margin-left: 20px;
+  padding-top: 100px;
+
+}
+
+  
+  
+
+
+.charles {
+
+  float: left;
+  margin-left: 10px;
+  padding-top: 10px;
+}
+
+
+  
+
+
+* {
+  margin-left: 10px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.ordem {
+  margin-left: 20px;
+}
+.ordem pre{
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  margin-left: 10px;
+  color: #102C57;
+  text-decoration: none;
+  flex-direction: row;
+  position: relative;
+  display: inline-flex;
+  list-style-type: none;
+  align-items: center;
+  padding: 0 30px;
+
+}
+
+.letras {
+  font-family: "Poppins", sans-serif;
+
+}
+
+a:hover {
+  margin-left: 10px;
+  color: #9c3607;
+  transform: scale(1.05);
+  transition: 0.6s;
+}
+
+.enia {
+  width: 350px;
+  border-radius: 0%
+}
+
+.enia2 {
+  width: 350px;
+  border-radius: 0%;
+
+
+}
+
+.cabecinha {
+  background-color: #BBE2EC;
+  padding: 40px 4%;
+  margin: -20px;
+  position: sticky;
+  top: 0px;
+  left: 0px;
+}
+
+.logo {
+  background-color: #BBE2EC;
+  position: relative;
+  top: -10px;
+  left: -10px;
+  width: 150px;
+  height: 150px;
+}
+
+
+cabecinha .links {
+  font-size: 20px;
+  text-align: center;
+  position: relative;
+  top: -20px;
+  left: -20px;
+  border: 1px;
+  padding: 5px;
+  list-style-type: none;
+  color: #515839;
+  text-decoration: none;
+
+}
+
+.sobre_mim {
+  display: flex;
+  height: -40px;
+
+
+}
+
+.detalhes {
+  margin-left: 20px;
+}
+
+img {
+  width: 70px;
+  border-radius: 50%;
+
+}
+
+.trio {
+  
+  float: left;
+  width: 20%;
+  margin-right: 25px;
+  border-radius: 20%;
+  
+}
+
+.segunda {
+  float: right;
+  padding-top: 1px;
+  margin-right: 30px;
+
+}
+
+.titulo-segunda {
+  float: right;
+  padding-top: 3rem;
+  margin-right: 67rem;
+
+}
+
+.ttres {
+  
+  width: 25%;
+  padding-top:2rem;
+  margin-right: 20px;
+  margin-left: 20rem;
+
+}
+.circ {
+
+  width: 25%;
+  padding-top:2rem;
+  
+
+}
+
+.quart {
+ 
+  float: left;
+  margin-left: 58rem;
+  margin-top: 7rem;
+  width: 200px;
+  border-radius: 0%
+  
+
+}
+.aUM {  
+  
+  border-radius: 20%;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  width: 200px;
+  margin-left: 15rem;
+}
+.aDOIS {
+  
+  float: left;
+  width: 20rem;
+  border-radius: 20%;
+  margin-top: -7rem;
+  margin-left: 25rem;
+
+}
+.quart-g {
+  margin-top: 3rem;
+  margin-left: 20px;
+  position: relative;
+  top: -3px;
+  width: 200px;
+  padding-top:1rem;
+  border-radius: 0%
+  
+}
+
+.quart-h {
+  width: 150px;
+  border-radius: 20%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  
+}
+.letraA{
+  margin-left: 0px;
+}
+
+.margemquiz {
+  margin-left: 22px;
+
+
+}
+.textoLinux {
+  float: left;
+  margin-top: -23rem;
+  margin-left: 20px;
+
+}
+
+.androidTexto {
+  text-align: center;
+
+}
+
+.quinta {
+  width: 500px;
+  border-radius: 0%;
+  margin-bottom:20px;
+  padding-top:1rem;
+
+}
+
+.question {
+  margin-bottom: 20px;
+}
+.feedback {
+  color: green;
+  font-weight: bold;
+}
+
+.feedback.incorrect {
+  color: red;
+}
+
+.quiz {
+  padding-top: 3rem; 
+  margin-bottom: 15px;
+
+
+}
+.submit {
+color: #F8F0E5;
+background-color: #6b9bae;
+top: 20px;
+left: 250px; height: 30px; width: 7rem;
+border-radius: 0%;
+border: none;
+
+
+}
+
+.liink {
+  
+  top: -33px;
+  left: 29rem;
+
+}
+
+.margem_irmao {
+  margin-left: 15rem;
+}
+
+.margem_irmaoo {
+  margin-left: 5rem;
+}
+
+.fotoChrome {
+  margin-top: 10px;
+  margin-left: 1rem;
+  
+  
+ 
+
+}
+.fotoMAC {
+
+  float: right;
+  width: 25%;
+  margin-left: 20px;
+  padding-top: 6rem;
+
+}
+.fotoW {
+  float: right;
+  width: 25%;
+  margin-left: 40px;
+  padding-top: 6rem;
+
+}
+.iw {
+  width: 220px;
+  border-radius: 20%; 
+  margin-left: -34px;
+  margin-bottom: 22px;
+
+}
+.margemW{
+  margin-bottom: 30rem;
+
+}
+.mac {
+  width: 220px;
+  border-radius: 0%; 
+  margin-left: -33px;
+  margin-bottom: 20px;
+
+}
+.mactres {
+  width: 220px; 
+  margin-left: -33px;
+  margin-bottom: 20px;
+  border-radius: 20%;
+
+
+}
+
+.ios {
+  width: 220px;
+  border-radius: 20%; 
+  margin-left: -34px;
+  margin-bottom: 25px;
+
+}
+
+.iosmaior {
+
+  width: 300px; 
+  margin-left: -57px;
+  margin-bottom: 20px;
+  border-radius: 20%;
+
+
+}
+
+.macOS {
+  position: relative;
+  display: flex;
+  flex-wrap: nowrap;
+ 
+}
+
+
+
+/*javaScript
+
+/* Define o estilo para a classe .conhecimentos, ajustando a margem e o padding */
+.conhecimentos{
+  margin: 1rem;
+  padding: 1rem;
+}
+.textoDestaque {
+  margin-top: -5rem;
+
+}
+
+/* Define o estilo para a classe .blocoSessoes, configurando o display para grid e definindo as colunas do grid */
+.blocoSessoes{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  margin: 2rem;
+}
+
+/* Define o estilo para a classe .blocoDescricaoConhecimento, ajustando a margem superior e o padding */
+.blocoDescricaoConhecimento{
+  margin-top: 40px;
+  padding: 10px;
+  margin-right: 5rem;
+}
+
+/* Define o estilo para a classe .descricaoConhecimento, centralizando o texto e ajustando o tamanho da fonte */
+.descricaoConhecimento{
+  text-align: left;
+
+}
+
+/* Define o estilo para a classe .ImgBloco, configurando o display para flex e permitindo que os itens sejam quebrados em várias linhas */
+.ImgBloco{
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+/* Define o estilo para a classe .conhecimentoImg, ajustando a largura e altura máximas, a margem e adicionando um filtro de sombra */
+.conhecimentoImg{
+  
+  max-width: 5rem;
+  max-height: 5rem;
+  margin: 1rem;
+  border-radius: 20%;
+  left: -10px;
+  width: 200px;
+  height: 70px;
+  
+}
+
+/* Define o estilo para a classe .conhecimentoImg quando o mouse está sobre ela, reduzindo a opacidade */
+.conhecimentoImg:hover{
+  opacity: .5;
+}
+
+/* Define o estilo para as classes .blocoSessoes e .conhecimentoImg quando a largura da tela é de no máximo 1024px */
+@media screen and (max-width:1024px) { 
+  .blocoSessoes{
+      display: block;
+  }
+  .conhecimentoImg{
+      max-width: 7.55rem;
+      max-height: 7.5rem;
+      margin: 1rem .75rem;
+      }
+}
+
+/* Define o estilo para as classes .blocoSessoes, .conhecimentoImg e .blocoDescricaoConhecimento quando a largura da tela é de no máximo 768px */
+@media screen and (max-width:768px) {
+  .blocoSessoes{
+      display: block;
+  }
+  .conhecimentoImg{
+  max-width: 3.5rem;
+  max-height: 3.5rem;
+  margin: .75rem auto;
+  }
+  .blocoDescricaoConhecimento{
+      margin-top: 2.5rem;
+  }
+
+}
+.imagemExibida {
+  float: right;
+  width: 25%;
+  margin-left: 20px;
+  padding-top: 6rem;
+}
+

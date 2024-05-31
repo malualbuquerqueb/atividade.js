@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MsdOS</title>
+  <link href="img/favicon.ico" type="image/x-icon" rel="icon">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <header class="cabecinha" ; style="position: sticky">
+    <table>
+      <tr>
+        <td><img class="logo" ; src="img/logo2.png" alt="Android"></td>
+        <td>
+          <h1 style="color: #102C57;">Jornada pela evolução dos sistemas operacionais</h1>
+        </td>
+      </tr>
+    </table>
+    <a href=comeco.html>Home</a>
+        <a href=msdos.html> Ms Dos</a>
+        <a href=windows.html> Windows </a>
+        <a href=linux.html> Linux/Unix</a>
+        <a href=mac.html> Mac OS</a>
+        <a href=ios.html> IOS </a>
+        <a href="chrome.html">Google Chrome</a>
+        <a href=intro.html>Android</a>
+        <a href="grupo.html">Grupo</a>
+        <a href="quiz.html">Quiz</a>
+    </nav>
+  </header>
+
+
+
+  <div class="margemquiz">
+    <div class="quiz">
+    <h1>Quiz sobre os sistemas operacionais</h1>
+   <strong> <p>Selecione a resposta correta para cada pergunta e clique em "Entregar" para ver sua pontuação.</p></div> </strong> 
+    <form id="quiz-form">
+        <!-- Questões do Quiz -->
+        <div class="question">
+            <p>1. Qual sistema operacional é desenvolvido pela Apple Inc.??</p>
+            <input type="radio" id="q1a" name="q1" value="A"> A) Android<br>
+            <input type="radio" id="q1b" name="q1" value="B"> B) Linux<br>
+            <input type="radio" id="q1c" name="q1" value="C"> C) iOS<br>
+            <input type="radio" id="q1d" name="q1" value="D"> D) Google Chrome<br>
+            <input type="radio" id="q1e" name="q1" value="E"> E) Ms DOS<br>
+            <div class="feedback" id="feedback-q1"></div>
+        </div>
+
+        <div class="question">
+            <p>2. Qual é o terminal de linha de comando padrão no macOS?</p>
+            <input type="radio" id="q2a" name="q2" value="A"> A) Command Prompt<br>
+            <input type="radio" id="q2b" name="q2" value="B"> B) PowerShell<br>
+            <input type="radio" id="q2c" name="q2" value="C"> C) Macintosh System 1<br>
+            <input type="radio" id="q2d" name="q2" value="D"> D) ITerm<br>
+            <input type="radio" id="q2e" name="q2" value="E"> E) Terminal<br>
+            <div class="feedback" id="feedback-q2"></div>
+        </div>
+
+        <div class="question">
+            <p>3. Quem foi este homem?</p>
+            <img class="quart-h" src="img/homem_linux..jpg" alt="Android">
+            <div class="letraA">
+            <input type="radio" id="q3a" name="q3" value="A"> A) Andy Rubim - Criador do Android<br></div>
+            <input type="radio" id="q3b" name="q3" value="B"> B) Linus Torvalds - Criador do Unix <br>
+            <input type="radio" id="q3c" name="q3" value="C"> C) Steve Jobs - Criador da Apple <br>
+            <input type="radio" id="q3d" name="q3" value="D"> D) Linus Torvalds - Criador do Linux<br>
+            <input type="radio" id="q3e" name="q3" value="E"> E) Nenhuma das alternativas<br>
+            <div class="feedback" id="feedback-q3"></div>
+        </div>
+
+        <div class="question">
+            <p>4. Qual é o sistema operacional de código aberto mais popular, amplamente utilizado em servidores e
+                desktops?</p>
+            <input type="radio" id="q4a" name="q4" value="A"> A) Windows<br>
+            <input type="radio" id="q4b" name="q4" value="B"> B) macOS<br>
+            <input type="radio" id="q4c" name="q4" value="C"> C) Linux<br>
+            <input type="radio" id="q4d" name="q4" value="D"> D) Chrome OS<br>
+            <input type="radio" id="q4e" name="q4" value="E"> E) UNIX<br>
+            <div class="feedback" id="feedback-q4"></div>
+        </div>
+
+        <div class="question">
+            <p>5.Leia as afirmativas a seguir e determine quais respostas estão CORRETAS: <br>
+                 I) Linux é sistema operacional é baseado no kernel do Unix e é conhecido por sua insegurança e instabilidade <br>
+                II) O macOS é um sistema operacional é desenvolvido pela Apple Inc. e é conhecido por sua estabilidade, segurança e design elegante <br>
+                III) O Microsoft Edge é um navegador desenvolvido pela Google <br>
+                IV) O MS-DOS foi inicialmente desenvolvido pela Microsoft  <br>
+                </p>
+            <input type="radio" id="q5a" name="q5" value="A"> A) II e IV apenas <br>
+            <input type="radio" id="q5b" name="q5" value="B"> B) I, II, III apenas <br>
+            <input type="radio" id="q5c" name="q5" value="C"> C) III e IV apenas <br>
+            <input type="radio" id="q5d" name="q5" value="D"> D) I e II apenas <br>
+            <input type="radio" id="q5e" name="q5" value="E"> E)Todas as alternativas estão corretas<br>
+            <div class="feedback" id="feedback-q5"></div>
+        </div>
+
+        <div class="question">
+            <p>6. Qual dessas ferramentas é usada para gerenciar processos em um sistema operacional?</p>
+            <input type="radio" id="q6a" name="q6" value="A"> A) Task Manager<br>
+            <input type="radio" id="q6b" name="q6" value="B"> B) File Explorer<br>
+            <input type="radio" id="q6c" name="q6" value="C"> C) Control Panel<br>
+            <input type="radio" id="q6d" name="q6" value="D"> D) Command Prompt<br>
+            <input type="radio" id="q6e" name="q6" value="E"> E) Paint<br>
+            <div class="feedback" id="feedback-q6"></div>
+        </div>
+
+        <div class="question">
+            <p>7. Qual é o nome do sistema operacional desenvolvido pelo Google que se concentra no uso de aplicativos e
+                armazenamento em nuvem?</p>
+            <input type="radio" id="q7a" name="q7" value="A"> A) Chrome OS<br>
+            <input type="radio" id="q7b" name="q7" value="B"> B) Linux<br>
+            <input type="radio" id="q7c" name="q7" value="C"> C) Windows<br>
+            <input type="radio" id="q7d" name="q7" value="D"> D) iOS<br>
+            <input type="radio" id="q7e" name="q7" value="E"> E) Android<br>
+            <div class="feedback" id="feedback-q7"></div>
+        </div>
+
+        <div class="question">
+            <p>8. Qual desses sistemas operacionais é mais comumente usado para servidores?</p>
+            <input type="radio" id="q8a" name="q8" value="A"> A) Windows Server<br>
+            <input type="radio" id="q8b" name="q8" value="B"> B) Linux<br>
+            <input type="radio" id="q8c" name="q8" value="C"> C) UNIX<br>
+            <input type="radio" id="q8d" name="q8" value="D"> D) Todos os anteriores<br>
+            <input type="radio" id="q8e" name="q8" value="E"> E) Nenhum dos anteriores<br>
+            <div class="feedback" id="feedback-q8"></div>
+        </div>
+
+        <div class="question">
+            <p>9. O que é um sistema operacional seguro?</p>
+            <input type="radio" id="q9a" name="q9" value="A"> A) Um sistema operacional que tem medidas para proteger
+            contra ameaças cibernéticas<br>
+            <input type="radio" id="q9b" name="q9" value="B"> B) Um sistema operacional que é gratuito<br>
+            <input type="radio" id="q9c" name="q9" value="C"> C) Um sistema operacional que nunca precisa de
+            atualizações<br>
+            <input type="radio" id="q9d" name="q9" value="D"> D) Um sistema operacional que não requer firewall<br>
+            <input type="radio" id="q9e" name="q9" value="E"> E) Um sistema operacional que funciona em nuvem<br>
+            <div class="feedback" id="feedback-q9"></div>
+        </div>
+
+        <div class="question">
+            <p>10. Qual é o nome do sistema operacional desenvolvido pela Microsoft para computadores pessoais?</p>
+            <input type="radio" id="q10a" name="q10" value="A"> A) Linux<br>
+            <input type="radio" id="q10b" name="q10" value="B"> B) Windows<br>
+            <input type="radio" id="q10c" name="q10" value="C"> C) Chrome OS<br>
+            <input type="radio" id="q10d" name="q10" value="D"> D) OS/2<br>
+            <input type="radio" id="q10e" name="q10" value="E"> E) macOS<br>
+            <div class="feedback" id="feedback-q10"></div>
+        </div>
+        
+        <div>
+        <button class="submit">Entregar</button>
+        </div>
+    </form>
+    </div>
+    <div id="result"></div>
+
+    <script>
+        document.getElementById("quiz-form").addEventListener("submit", function (event) {
+            event.preventDefault();
+
+            const correctAnswers = {
+                q1: "C",
+                q2: "E",
+                q3: "D",
+                q4: "C",
+                q5: "A",
+                q6: "A",
+                q7: "A",
+                q8: "D",
+                q9: "A",
+                q10: "B",
+            };
+
+            let score = 0;
+
+            // Loop para cada questão no quiz
+            for (let question in correctAnswers) {
+                const selectedAnswer = document.querySelector(`input[name="${question}"]:checked`);
+                const feedbackElement = document.getElementById(`feedback-${question}`);
+
+                if (selectedAnswer) {
+                    if (selectedAnswer.value === correctAnswers[question]) {
+                        // Se o usuário acertou a resposta
+                        score++;
+                        feedbackElement.textContent = "Correto!";
+                        feedbackElement.className = "feedback";
+                    } else {
+                        // Se o usuário errou a resposta
+                        feedbackElement.textContent = `Incorreto! A resposta correta é ${correctAnswers[question]}.`;
+                        feedbackElement.className = "feedback incorrect";
+                    }
+                } else {
+                    // Se o usuário não respondeu
+                    feedbackElement.textContent = `Sem resposta. A resposta correta é ${correctAnswers[question]}.`;
+                    feedbackElement.className = "feedback incorrect";
+                }
+            }
+
+            const totalQuestions = Object.keys(correctAnswers).length;
+            const percentage = (score / totalQuestions) * 100;
+
+            // Exibe a pontuação final e a porcentagem
+            const resultText = `Você acertou ${score} de ${totalQuestions} (${percentage.toFixed(2)}%).`;
+            document.getElementById("result").innerText = resultText;
+        });
+
+    </script>
+</body>
+
+</html>

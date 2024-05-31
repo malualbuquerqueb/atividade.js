@@ -1,0 +1,259 @@
+body {
+    margin-left: 20px;
+    font-family: "Poppins", sans-serif;
+    background-color: #F8F0E5;
+  
+  }
+  header {
+    z-index: 999;
+   
+  }
+  
+  
+  .titulo1 {
+    padding-top: 40px;
+    text-align: center;
+  
+  
+  }
+  
+  .titulo {
+    padding-top: 50px;
+    
+  
+  }
+  
+  .titulo2 {
+    padding-top: 50px;
+    margin-left: 20px;
+  
+    
+  }
+  
+  
+  .subtexto {
+    text-align: center;
+  
+  
+  }
+  
+  .foto,
+  .foto1 {
+  
+    float: right;
+    width: 25%;
+    margin-left: 20px;
+    padding-top: 100px;
+  
+  }
+    
+  
+  .cha {
+    
+    position: relative;
+    top: -3px;
+    width: 350px;
+    border-radius: 0%
+    
+    
+  
+  }
+  
+  .charles {
+  
+    float: left;
+    margin-left: 10px;
+    padding-top: 10px;
+  }
+  .aa {
+    position: relative;
+    top: -3px;
+    width: 250px;
+    border-radius: 0%
+  
+    
+  }
+  
+  * {
+    margin-left: 10px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .ordem {
+    margin-left: 20px;
+  
+  }
+  
+  a {
+    margin-left: 10px;
+    color: #102C57;
+    text-decoration: none;
+    flex-direction: row;
+    position: relative;
+    display: inline-flex;
+    list-style-type: none;
+    align-items: center;
+    padding: 0 30px;
+  
+  }
+  
+  .letras {
+    font-family: "Poppins", sans-serif;
+  
+  }
+  
+  a:hover {
+    margin-left: 10px;
+    color: #9c3607;
+    transform: scale(1.05);
+    transition: 0.6s;
+  }
+  
+  .enia {
+    width: 350px;
+    border-radius: 0%
+  }
+  
+  .enia2 {
+    width: 350px;
+    border-radius: 0%;
+  
+  
+  }
+  
+  .cabecinha {
+    background-color: #BBE2EC;
+    padding: 40px 4%;
+    margin: -20px;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+  }
+  
+  .logo {
+    background-color: #BBE2EC;
+    position: relative;
+    top: -10px;
+    left: -10px;
+    width: 150px;
+    height: 150px;
+  }
+  
+  
+
+  
+  
+  
+  .sobre_mim {
+    display: flex;
+    height: -40px;
+  
+  
+  }
+  
+  .detalhes {
+    margin-left: 20px;
+  }
+  
+  img {
+    width: 60px;
+    border-radius: 45%;
+  
+  }
+  
+  .trio {
+    
+    float: left;
+    width: 25%;
+    padding-top:2rem;
+    margin-right: 20px;
+    
+  }
+  
+  .segunda {
+    float: right;
+    padding-top: 1px;
+    margin-right: 30px;
+  
+  }
+  
+  .titulo-segunda {
+    float: right;
+    padding-top: 3rem;
+    margin-right: 63rem;
+  
+  }
+  
+  .ttres {
+    
+    width: 25%;
+    padding-top:2rem;
+    margin-right: 20px;
+    margin-left: 20rem;
+  
+  }
+  .circ {
+  
+    width: 25%;
+    padding-top:2rem;
+    
+  
+  }
+  
+  .quart {
+   
+    padding-top:2rem;
+    margin-right: 20px;
+    margin-left: 20rem;
+    width: 300px;
+    border-radius: 0%
+  
+  }
+  .quart-g {
+    position: relative;
+    top: -3px;
+    width: 420px;
+    padding-top:1rem;
+    border-radius: 0%
+    
+  }
+  
+  .quinta {
+    width: 450px;
+    border-radius: 0%;
+    margin-left: 30rem; 
+    padding-top:1rem;
+  
+  }
+  
+  .question {
+    margin-bottom: 20px;
+  }
+  .feedback {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .feedback.incorrect {
+    color: red;
+  }
+  
+  .quiz {
+    padding-top: 3rem; 
+  
+  
+  }
+  .submit {
+  color: #F8F0E5;
+  background-color: #6b9bae;
+  top: 20px;
+  left: 250px; height: 30px; width: 7rem;
+  border-radius: 0%;
+  border: none;
+  
+  
+  }
+  
+  
